@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+.navbar li{
+	float: left
+	;
+}
+
+.navbar li a {
+	display: block;
+	color: #33ACFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin: 8px;
+	font-family: Century;
+	}
+
+.navbar li a:hover{
+	background-color: #33ACFF;
+	color: white;
+}
+
+
+#image{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#container{
+	
+	width: 100%;
+	margin: auto;
+	padding-top: 60px;
+	background-color: #e0e0e0;
+	overflow: hidden;
+}
+
+#container2{
+
+	width: 400px;
+	margin: auto;
+	background-color: red;
+	overflow: hidden;
+	height: 200px;
+}
+
+
+/*.container {
+   margin:0 auto; /* this will center the page */
+  /* width:960px;
+   background-color: yellow; /*  use your width here */
+
+#adspace1{
+	float: left;
+	width: 12.5%;
+	height: 100%;
+	background-color: #e0e0e0;
+	color: black;
+	word-wrap: break-word;
+}
+
+#content{
+	width: 960px;
+	float: left;height: 100%;
+	background-color: #e0e0e0;
+	color: white;
+	word-wrap: break-word;
+
+}
+#adspace2{
+	float: left;
+	width: 12.5%;
+	height: 100%;
+	background-color: #e0e0e0;
+	color: black;
+	word-wrap: break-word;
+}
+#clear{
+	clear: both;
+}
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+.blue    { background-color: #084B8A; }
+.blue select    { color: white; }
+
+.in{
+	display: inline-block;
+}
+#vertical{
+	float: left;
+	width: 225px;
+	height: 100%;
+	margin: 0;
+	background-color:#C6D1DF;
+	color: black;
+	word-wrap: break-word;
+
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #33ACFF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+nav{
+    width: 200px;
+    height: auto;
+    font-family: 'Arial';
+    margin: 50px auto;
+}
+.item label{
+    display: block;
+    padding: 10px;
+    background-color: #434343;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    border-bottom: solid 2px #aaa;
+}
+.item label:hover{
+    background-color: #595DAE;
+}
+
+.item ul{
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .4s linear;
+
+}
+.item input{
+    display: none;
+} 
+
+
+.item ul li a{
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    background-color: #fafafa;
+    color: #333;
+    border-bottom: solid 2px #aaa;
+
+} 
+.item ul li a:hover{
+    background-color: #9CF;
+
+}
+.item input:checked ~ ul{
+    height: auto;
+    max-height: 200px;
+    transform: all;
+}
